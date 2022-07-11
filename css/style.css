@@ -1,0 +1,175 @@
+/*Обнуление*/
+*{padding: 0;margin: 0;border: 0;}
+*,*:before,*:after{-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box;}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+nav,footer,header,aside{display: block;}
+html,body{height:100%;width:100%;font-size:100%;line-height:1;font-size:14px;-ms-text-size-adjust:100%;-moz-text-size-adjust:100%;-webkit-text-size-adjust:100%;}
+input,button,textarea{font-family:inherit;}
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner{padding:0;border:0;}
+a,a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
+/*--------------------*/
+
+body{
+	font-family: roboto;
+}
+.flex{
+	display: flex;
+}
+.hidden{
+	display: none;
+}
+.active{
+	display: inline;
+}
+.block_emergence_registration{
+	height: 100vh;
+	width: 100vw;
+	position: absolute;
+	z-index: 1;
+	background-color: rgba(20, 20, 20, 0.603);
+}
+.block_emergence_registration_window{
+	height: 650px;
+	width: 600px;
+	background-color: rgb(238, 238, 238);
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-top: calc(-650px / 2);
+	margin-left: calc(-600px / 2);
+	border-radius: 5px;
+	font-size: 35px;
+	color: rgb(20, 20, 20);
+}
+.block_emergence_registration_window_close{
+	color: rgb(20, 20, 20);
+	text-align: right;
+	margin: 10px;
+}
+.block_emergence_registration_window_title{
+	font-size: 32px;
+	text-align: center;
+}
+.block_emergence_registration_window_fields{
+	margin: 0 auto;
+	width: 400px;
+}
+.block_emergence_registration_window_fields_name{
+	position: relative;
+	font-size: 16px;
+	left: 30px;
+	z-index: 2;
+	top: 20px;
+	background-color: rgb(238, 238, 238);
+	padding: 0 5px;
+	width: 100px;
+	color: rgba(32, 32, 32, 0.863);
+}
+.block_emergence_registration_email{
+	width: 400px;
+	font-size: 22px;
+	height: 55px;
+	margin: 0 auto;
+	margin-top: 10px;
+	border-radius: 5px;
+	border: 1px solid rgba(32, 32, 32, 0.24);
+	background-color: rgb(238, 238, 238);
+	padding: 0 15px;
+	color: rgb(32, 32, 32);
+}
+.block_emergence_registration_email:focus{
+	border: 2px solid rgba(61, 109, 214, 0.705);
+}
+.block_emergence_registration_window_sending_form{
+	width: 400px;
+	height: 70px;
+	padding: 22px 0;
+	text-align: center;
+	margin: 50px auto;
+	border-radius: 50px;
+	font-size: 25px;
+	font-weight: 500;
+	background-color: rgb(61, 110, 214);
+	color: rgb(247, 247, 247);;
+}
+.block_emergence_registration_window_sending_form:hover{
+	background-color: rgba(61, 109, 214, 0.815);
+}
+.block_emergence_logining{
+	margin-top: 30px;
+}
+.block_emergence_logining_window_sending_form{
+	margin-top: 120px;
+}
+
+.block_image_leon{
+	background: url('../img/leon.jpg') 50% 0/auto 100% no-repeat;
+	height: 100vh;
+	width: 60vw;
+}
+.block_welcome{
+	margin: 70px;
+}
+.block_logo_image{
+	height: 100px;
+	width: 100px;
+	border-radius: 50%;
+	background-color: rgb(117, 117, 117);
+}
+.block_logo_name{
+	font-size: 35px;
+	font-weight: 800;
+	padding: 35px 15px;
+	color: rgb(20, 20, 20);
+}
+.block_welcome_title{
+	margin-top: 50px;
+	font-size: 60px;
+	font-weight: 900;
+	letter-spacing: 2px;
+	color: rgb(20, 20, 20);
+}
+.block_welcome_subtitle{
+	margin-top: 100px;
+	font-size: 45px;
+	font-weight: 500;
+	color: rgb(20, 20, 20);
+}
+.block_button{
+	margin-top: 30px;
+	width: 450px;
+	height: 70px;
+	padding: 20px;
+	border-radius: 50px;
+	font-size: 25px;
+	font-weight: 500;
+	background-color: rgb(61, 110, 214);
+	color: rgb(247, 247, 247);
+	text-align: center;
+}
+.block_button:hover{
+	background-color: rgba(61, 109, 214, 0.815);
+}
+
+
+.block_autorization_title{
+	font-size: 30px;
+	font-weight: 600;
+	margin-top: 100px;
+}
+.block_button_autorization{
+	margin-top: 40px;
+	background-color: rgb(250, 250, 250);
+	border: solid 1px rgb(12, 12, 12);
+	color: rgb(20, 20, 20);
+}
+.block_button_autorization:hover{
+	background-color: rgb(230, 230, 230);
+}
