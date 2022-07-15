@@ -49,9 +49,19 @@ body{
 	color: rgb(20, 20, 20);
 }
 .block_emergence_registration_window_close{
-	color: rgb(20, 20, 20);
 	text-align: right;
 	margin: 10px;
+}
+.bx-x{
+	transition: 0.5s;
+}
+.bx-x:hover{
+	background-color: rgba(207, 207, 207, 0.541);
+	border-radius: 5px;
+	transition: 0.3s;
+}
+.block_emergence_registration_window_close a {
+	color: rgb(20, 20, 20);
 }
 .block_emergence_registration_window_title{
 	font-size: 32px;
