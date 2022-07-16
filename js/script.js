@@ -1,5 +1,5 @@
 const buttonRegistration =  document.querySelector(".block_button_registarion");
-const buttonAuthorization = document.querySelector(".block_button_autorization");
+const buttonAuthorization = document.querySelector(".block_button_authorization");
 
 
 if (buttonRegistration) {
@@ -13,13 +13,13 @@ if (buttonRegistration) {
     })
 }
 
-if (buttonAutorization) {
+if (buttonAuthorization) {
     const openAuthorization = document.querySelector(".block_emergence_authorization");
     const closeAuthorization = document.getElementById("closeAuthorization");
-    buttonAutorization.addEventListener("click", function() {
-        openAutorization.classList.toggle("active");
+    buttonAuthorization.addEventListener("click", function() {
+        openAuthorization.classList.toggle("active");
     })
-    closeAutorization.addEventListener("click", function() {
+    closeAuthorization.addEventListener("click", function() {
         openAuthorization.classList.toggle("active");
     })
 
