@@ -98,10 +98,12 @@ body{
 	border: 2px solid rgba(61, 109, 214, 0.705);
 }
 .block_emergence_registration_window_sending_form{
+	position: relative;
+	left: 50%;
+	transform: translate(-50%, 0);
 	width: 400px;
 	height: 70px;
 	padding: 22px 0;
-	text-align: center;
 	margin: 50px auto;
 	border-radius: 50px;
 	font-size: 25px;
@@ -169,17 +171,17 @@ body{
 }
 
 
-.block_autorization_title{
+.block_authorization_title{
 	font-size: 30px;
 	font-weight: 600;
 	margin-top: 100px;
 }
-.block_button_autorization{
+.block_button_authorization{
 	margin-top: 40px;
 	background-color: rgb(250, 250, 250);
 	border: solid 1px rgb(12, 12, 12);
 	color: rgb(20, 20, 20);
 }
-.block_button_autorization:hover{
+.block_button_authorization:hover{
 	background-color: rgb(230, 230, 230);
 }
