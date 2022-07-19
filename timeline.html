@@ -1,0 +1,60 @@
+<!-- Сообщаем браузеру как стоит обрабатывать эту страницу -->
+<!DOCTYPE html>
+<!-- Оболочка документа, указываем язык содержимого -->
+<html lang="ru">
+	<!-- Заголовок страницы, контейнер для других важных данных (не отображается) -->
+	<head>
+		<!-- Заголовок страницы в браузере -->
+		<title>Leon timeline</title>
+		<link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+		<!-- Подключаем CSS -->
+		<link rel="stylesheet" href="css/timeline.css" />
+		<!-- Кодировка страницы -->
+		<link href="https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css" rel="stylesheet">
+		<meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
+		<meta name="viewport" content="width=device-width">
+	</head>
+	<body>
+		<div class="wrapper">
+            <div class="header_timeline flex">
+                <a href="">
+                <div class="block_website_name_logo flex">
+                    <div class="block_website_logo"></div>
+                    <div class="block_website_name">Vjyh</div>
+                </div>
+                </a>
+                <div class="header_timeline_authorization"><a href="registration.html">@ логин / авторизация</a></div>
+            </div>
+            <div class="block_basic flex">
+                <div class="block_line block_line_navigation">Навигация</div>
+                <div class="block_line block_line_main">
+                    <div class="block_line_post">
+                        <div class="block_line_post_header flex">
+                            <div class="block_line_post_avatar"></div>
+                            <div class="block_line_post_person_name"><a href="#">@login</a></div>
+                            <div class="block_icon_post_reply"><a href="#"><i class='bx bxs-comment-detail'></i></a></div>
+                            <div class="block_icon_post_subscribe"><a href="#"><i class='bx bxs-user-check'></i></a></div>
+                        </div>
+                        <div class="block_line_post_text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat explicabo blanditiis architecto, eveniet quaerat nam sed earum ea nesciunt voluptates, perspiciatis corrupti. Velit saepe laborum qui cupiditate nisi sit deleniti laudantium fugiat nesciunt. Beatae similique iusto ex ullam, quasi deserunt quibusdam, rerum repellat, voluptates mollitia distinctio pariatur vitae doloremque laboriosam.</div>
+                        <div class="block_line_post_date">1 апреля 2022 14:17</div>
+                    </div>    
+                    <div class="block_line_add_post">
+                        <form class="form" method="post">
+							<textarea class="text_area" placeholder="Напишите ваш текст" name="text_blog"></textarea>
+							<div class="buttons flex">
+								<div class="name_file_input" id="conclusionFile"></div>
+								<label for="uploadFile"><div class="button_added" id="buttonAdded"><i class='bx bx-paperclip'></i></div></label>
+								<label><div class="button_delete hidden" id="buttonDelete"><i class='bx bx-x'></i></div></label>
+								<input type="file" id="uploadFile" name="upload" accept=".png, .jpg, .jpeg, .gif" onchange="showFile(this)">
+								<button class="button_form_push">Отправить</button>
+							</div>
+						</form>
+                    </div>
+                </div>
+                <div class="block_line block_line_future">Блок на будущее</div>
+            </div>
+        </div>
+
+        <script src="js/script.js"></script>
+	</body>
+</html>
