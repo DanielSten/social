@@ -31,30 +31,29 @@ body{
 }
 
 .header_timeline{
-    background-color: rgba(61, 109, 214, 0.712);
+    background-color: rgba(0, 63, 199, 0.301);
     border-radius: 5px;
     padding: 30px 50px;
-    color: rgb(247, 247, 247);
     justify-content:space-between;
 }
 .block_website_logo{
     height: 55px;
 	width: 55px;
 	border-radius: 50%;
-	background-color: rgb(247, 247, 247);
+	background-color: rgb(87, 87, 87);
 }
 .block_website_name{
     font-size: 30px;
     font-weight: 600;
     padding: 13px;
-    color: rgb(247, 247, 247);
+    color: rgb(10, 10, 10);
 }
 
 .header_timeline_authorization{
        padding: 15px 0;
 }
 .header_timeline_authorization a{
-    color: rgb(247, 247, 247);
+    color: rgb(10, 10, 10);
     font-size: 20px;
     font-weight: 500;
 }
@@ -64,13 +63,14 @@ body{
 .block_basic{
     margin: 30px;
     font-size: 20px;
+    justify-content:center;
 }
 .block_line{
     margin: 0 20px;
-    background-color: rgba(61, 109, 214, 0.712);
+    background-color: rgba(0, 63, 199, 0.301);
     border-radius: 5px;
     padding: 30px 50px;
-    color: rgb(247, 247, 247);
+    color: rgb(10, 10, 10);
 }
 .block_line_navigation{
     min-width: 250px;
@@ -78,6 +78,7 @@ body{
 }
 .block_line_main{
     flex-grow: 1;
+    max-width: 650px;
 }
 .block_line_future{
     min-width: 250px;
@@ -86,15 +87,57 @@ body{
 
 
 
+
+
+.block_line_account_info{
+    margin: 25px 0;
+    padding: 20px;
+    background-color: rgb(212, 224, 248);
+    border-radius: 5px;
+}
+.block_line_account_info_avatar{
+    height: 70px;
+	width: 70px;
+	border-radius: 50%;
+	background-color: rgb(87, 87, 87);
+    margin-right: 90px;
+}
+.block_line_account_info_name{
+    padding: 13px;
+    font-size: 27px;
+    font-weight: 600;
+}
+.block_line_account_info_add{
+    font-size: 14px;
+}
+.block_line_account_info_subscribe_icon i{
+    color: rgb(48, 48, 48);;
+    font-size: 33px;
+}
+.block_line_account_info_subscribe_icon i:hover{
+    transition: 0.5s;
+    color: rgba(48, 48, 48, 0.671);
+}
+
+
+
+
+
+
+
+
+
+
+
 .block_line_post_header a{
-    color: rgb(247, 247, 247);
+    color: rgb(10, 10, 10);
     font-size: 25px;
 }
 .block_line_post_avatar{
     height: 40px;
 	width: 40px;
 	border-radius: 50%;
-	background-color: rgb(247, 247, 247);
+	background-color: rgb(87, 87, 87);
 }
 .block_line_post_person_name{
     padding-top: 5px;
@@ -126,6 +169,14 @@ body{
     text-align: right;
     margin: 20px;
 }
+.block_line_post_header i{
+    color: rgb(48, 48, 48);
+}
+.block_line_post_header i:hover{
+    transition: 0.5s;
+    color: rgba(48, 48, 48, 0.671);
+}
+
 
 
 
