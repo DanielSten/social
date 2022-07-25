@@ -1,0 +1,82 @@
+<!-- Сообщаем браузеру как стоит обрабатывать эту страницу -->
+<!DOCTYPE html>
+<!-- Оболочка документа, указываем язык содержимого -->
+<html lang="ru">
+	<!-- Заголовок страницы, контейнер для других важных данных (не отображается) -->
+	<head>
+		<!-- Заголовок страницы в браузере -->
+		<title>Leon</title>
+		<link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+		<!-- Подключаем CSS -->
+		<link rel="stylesheet" href="css/style.css" />
+		<!-- Кодировка страницы -->
+		<link href="https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css" rel="stylesheet">
+		<meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
+		<meta name="viewport" content="width=device-width">
+        <style>
+            body{
+                font-family: roboto;
+                background-color: rgb(238, 238, 238);
+            }
+            .wrapper{
+                width: 1000px;
+                margin: 0 auto;
+                padding: 200px 0 100px 0;
+            }
+            .block_setting_circle{
+                margin: 0 auto;
+                width: 120px;
+                height: 120px;
+                background-color: #80cbc4;
+                border-radius: 50%;
+            }
+            .block_setting_account{
+                font-size: 25px;
+                color: rgb(48, 48, 48);
+                font-weight: 600;
+                text-align: center;
+                margin: 40px;
+            }
+            .block_setting_window_input{
+                text-align: center;
+            }
+            .block_setting_window_input input{
+                border: solid 1px rgba(27, 27, 27, 0.836);
+                border-radius: 2px;
+                width: 260px;
+                height: 35px;
+                font-size: 14px;
+                padding: 5px;
+                font-weight: 500;
+                box-shadow: 0px 0px 15px 0px rgba(34, 60, 80, 0.24);
+            }
+            .block_setting_button_send{
+                height: 35px;
+                width: 180px;
+                background-color: #3a6d69;
+                color: rgb(245, 245, 245);
+                font-size: 20px;
+                font-weight: 500;
+                border-radius: 15px;
+                text-align: center;
+                margin: 15px auto;
+                padding-top: 6px;
+            }
+            .block_setting_button_send:hover{
+                background-color: #3a6d69d7;
+            }
+        </style>
+	</head>
+	<body>
+		<div class="wrapper">
+            <div class="block_setting_circle"></div>
+            <div class="block_setting_account">@login</div>
+            <form action="post">
+                <div class="block_setting_window_input"><input type="file" accept="image/jpeg, image/png, img/jpg"></div>
+                <div class="block_setting_button_send" type="submit">Загрузить</div>
+            </form>
+        </div>
+
+		<script src="js/script.js"></script>
+	</body>
+</html>
